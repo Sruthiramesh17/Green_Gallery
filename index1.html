@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+  <h1>Welcome to the Green Club Gallery</h1>
+
+<div class="gallery">
+ 
+        <div class="gallery1">
+        <img src="./green club/IMG_20230622_223208.jpg"  alt="click here" 
+                        onclick="myImageFunction(this)">
+
+         <img src="./green club/IMG_20230622_223230.jpg"  alt="click here" 
+                        onclick="myImageFunction(this)">
+
+        <img src="green club/IMG_20230622_223244.jpg" alt="click here"-
+                        onclick="myImageFunction(this)">
+
+         <img src="./green club/IMG_20230622_223300.jpg" alt="click here"
+                        onclick="myImageFunction(this)">
+
+         <img src="./green club/IMG_20230622_223318.jpg" alt="click here"
+                        onclick="myImageFunction(this)">
+
+        <img src="./green club/IMG_20230622_223329.jpg" alt="click here"
+                        onclick="myImageFunction(this)">
+        </div>
+
+
+        <div class="gallery2">
+            <img id="1" src="./green club/IMG_20230622_223208.jpg" alt="click here">
+        </div>
+        
+</div>
+
+<script>
+    function myImageFunction(productSmallImg) {
+        var productFullImg = document.getElementById("1");
+        productFullImg.src = productSmallImg.src;
+    }
+</script>
+
+</body>
+</html>

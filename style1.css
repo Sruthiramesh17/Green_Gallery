@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    font-size: 180%;
+  
+}
+
+
+.gallery1 img{
+    height: 92px;
+    margin: 5px 0;
+    cursor: pointer;
+    display:block;
+    opacity: .5;
+}
+   
+.gallery1 img:hover {
+    opacity: 10;
+}
+
+.gallery1{
+    float: left;
+    margin: 10px;
+}
+   
+
+.gallery2 img{
+    height: 400px;
+    transition: transform 1s;
+    position:relative;
+}
+
+.gallery2 img:hover{
+    cursor:zoom-in;
+    transform: scale(1.5);
+}
+
+.gallery2{
+    float: right;
+    padding: 10px;
+}
+
+.gallery {
+    top: 70%;
+    left: 45%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    
+}
+
